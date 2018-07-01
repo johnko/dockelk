@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-hostIP="$(hostname -I|awk '{print $1}')"
+# hostIP="$(hostname -I|awk '{print $1}')"
 
 network="elk"
 
